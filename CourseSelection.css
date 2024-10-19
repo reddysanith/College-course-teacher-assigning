@@ -1,0 +1,51 @@
+.course-selection-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.course-selection-container h1 {
+  color: #333; /* Dark text for contrast */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+}
+
+.course-selection-list {
+  margin-bottom: 20px;
+  padding: 10px; /* Padding around the list */
+  background-color: #ffffff; /* White background for lists */
+  border-radius: 5px; /* Rounded corners for lists */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.course-selection-list label {
+  display: block; /* Stack labels vertically */
+  margin: 10px 0; /* Space between courses */
+  color: #555; /* Darker gray for text */
+}
+
+.course-selection-list select {
+  margin-left: 10px; /* Space between checkbox and select */
+  padding: 5px; /* Padding for better clickability */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.button {
+  display: block; /* Center the button */
+  margin: 20px auto; /* Centering */
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+  font-size: 1rem; /* Slightly larger font */
+}
+
+.button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

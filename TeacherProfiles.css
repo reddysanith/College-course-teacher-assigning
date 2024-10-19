@@ -1,0 +1,67 @@
+.teacher-profiles-container {
+  padding: 20px;
+  background-color: #f4f4f9; /* Light background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.teacher-profiles-container h1 {
+  color: #333; /* Dark text for contrast */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.teacher-cards {
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to new line */
+  justify-content: center; /* Center cards */
+}
+
+.teacher-card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); /* Shadow for cards */
+  margin: 10px;
+  padding: 20px;
+  width: 200px; /* Fixed width for cards */
+  text-align: center; /* Center text in card */
+  transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.teacher-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.teacher-card h3 {
+  color: #2a2a2a; /* Slightly lighter for the heading */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.teacher-card p {
+  color: #777; /* Gray text for secondary info */
+  margin: 5px 0; /* Margin for spacing */
+}
+
+.button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
